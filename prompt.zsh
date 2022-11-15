@@ -22,7 +22,7 @@ zstyle ':zim:prompt-pwd:tail' length 1
 
 # set finally prompt
 # dont set right prompt, you can find the configuration in github with these plugs
-autoload -U colors
+autoload -U colors && colors
 
-PS1=' $fg_bold[white]$(prompt-pwd)$reset_color%b${(e)git_info[prompt]}%F{red}  $reset_color%b'
+PS1=' $fg_bold[blue]$(prompt-pwd)$reset_color%b${(e)git_info[prompt]}%F{red}  $reset_color%b'
 
