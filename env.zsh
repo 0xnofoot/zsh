@@ -1,0 +1,1 @@
+/home/nofoot/.config/env_profile
