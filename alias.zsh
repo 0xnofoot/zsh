@@ -4,3 +4,4 @@ alias la='ls -aF'
 
 alias v='nvim'
 alias r='ranger'
+

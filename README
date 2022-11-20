@@ -7,7 +7,6 @@
 zsh config
 move it to ~/.config
 and make a link in ~/ as .zshrc from zshrc
-and make a link in ~/ as .zimrc from zimrc
 
 !!! please make the "env.zsh" file by yourself, it is for set the enviroment variables
 

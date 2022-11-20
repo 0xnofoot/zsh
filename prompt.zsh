@@ -19,10 +19,13 @@ autoload -Uz add-zsh-hook && add-zsh-hook precmd git-info
 #
 zstyle ':zim:prompt-pwd' git-root yes
 zstyle ':zim:prompt-pwd:tail' length 1
+zstyle ':zim:prompt-pwd:fish-style' dir-length 1
 
 # set finally prompt
 # dont set right prompt, you can find the configuration in github with these plugs
-autoload -U colors && colors
+autoload -U colors
 
-PS1=' $fg_bold[blue]$(prompt-pwd)$reset_color%b${(e)git_info[prompt]}%F{red}  $reset_color%b'
+# PS1=' $fg_bold[blue]$(prompt-pwd)$reset_color%b${(e)git_info[prompt]}%F{red}  '
+PS1=' %1~$reset_color%b${(e)git_info[prompt]}%F{red}  '
 
+# PROMPT="%{$fg[yellow]%}%1~ %{$reset_color%}%#"

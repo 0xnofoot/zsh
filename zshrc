@@ -130,8 +130,8 @@ unset key
 
 # private config
 source ~/.config/zsh/env.zsh
-source ~/.config/zsh/alias.zsh
 source ~/.config/zsh/plugs.zsh
+source ~/.config/zsh/alias.zsh
 source ~/.config/zsh/vi.zsh
 source ~/.config/zsh/func_map.zsh
 source ~/.config/zsh/prompt.zsh
