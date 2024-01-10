@@ -1,4 +1,4 @@
-the zsh config
+the zsh config for MacOS
 
 clone it to ~/.config
 
