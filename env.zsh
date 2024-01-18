@@ -21,12 +21,13 @@ ZSH_HIGHLIGHT_HIGHLIGHTERS=(main brackets)
 # ------------------
 
 export TMP_DIR=~/.tmp
-export EDITOR='nvim'
 
 if [ ! -d "$TMP_DIR" ]; then
     mkdir "$TMP_DIR"
     echo "make ~/.tmp"
 fi
+
+export EDITOR='nvim'
 
 # for xcodebuild
 export TOOLCHAIN_PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain

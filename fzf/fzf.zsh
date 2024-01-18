@@ -1,4 +1,6 @@
-#! /bin/bash
+# ------------------
+# alias config
+# ------------------
 
 # for fzf work
 source ~/.config/zsh/fzf/fzf_completion.zsh
