@@ -1,11 +1,6 @@
-# zimrc plugin
-
-# zmodule input
-# zmodule git
-# zmodule termtitle
-# zmodule prompt-pwd
-# zmodule magicmace
-# zmodule zsh-users/zsh-completions
+# ------------------
+# zimrc plugins
+# ------------------
 
 zmodule zimfw/environment
 zmodule zimfw/utility
@@ -19,3 +14,10 @@ zmodule zdharma-continuum/fast-syntax-highlighting
 zmodule supercrabtree/k
 zmodule hlissner/zsh-autopair
 zmodule Aloxaf/fzf-tab
+
+# zmodule input
+# zmodule git
+# zmodule termtitle
+# zmodule prompt-pwd
+# zmodule magicmace
+# zmodule zsh-users/zsh-completions

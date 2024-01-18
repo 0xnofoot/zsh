@@ -1,3 +1,7 @@
+# ------------------
+# zsh vi-mode config
+# ------------------
+
 bindkey -v
 
 bindkey -M vicmd "H" remap_vi_H
