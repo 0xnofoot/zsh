@@ -43,5 +43,3 @@ source ~/.config/zsh/prompt.zsh
 # the order cant't be changed 
 source $ZIM_HOME/modules/fzf-tab/fzf-tab.plugin.zsh
 source ~/.config/zsh/fzf.zsh
-
-autopair-init

@@ -14,9 +14,9 @@ autoload -Uz add-zsh-hook && add-zsh-hook precmd git-info
 #
 #prompt-pwd
 #
-zstyle ':zim:prompt-pwd' git-root yes
-zstyle ':zim:prompt-pwd:tail' length 1
-zstyle ':zim:prompt-pwd:fish-style' dir-length 1
+# zstyle ':zim:prompt-pwd' git-root yes
+# zstyle ':zim:prompt-pwd:tail' length 1
+# zstyle ':zim:prompt-pwd:fish-style' dir-length 1
 
 # set finally prompt
 # dont set right prompt, you can find the configuration in github with these plugs

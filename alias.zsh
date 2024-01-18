@@ -1,6 +1,7 @@
 alias ls='exa --icons'
 alias la='exa -a --icons'
 alias ll='exa -al --icons'
+alias lg='k'
 
 alias vim='nvim'
 
