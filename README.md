@@ -15,6 +15,6 @@ if you don't development IOS App with swift, you can delete the TOOLCHAIN_PATH e
 install these:
 fzf
 fd
-exa
+eza
 bat
 exiftool
