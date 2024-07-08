@@ -18,3 +18,4 @@ fd
 eza
 bat
 exiftool
+trash-cli
