@@ -29,10 +29,18 @@ fi
 
 export EDITOR='nvim'
 
-#for mason
-export PATH=$PATH:~/.local/share/nvim/mason/bin
+# for mason
+# export PATH=$PATH:~/.local/share/nvim/mason/bin
+export PATH=$PATH:$HOME/.local/share/nvim/mason/bin
 
 # for xcodebuild
 export TOOLCHAIN_PATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain
 
+# for ruby
+source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
+source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
+chruby ruby-3.3.3
+
+# for flutter
+export PATH=$PATH:$HOME/.local/development/flutter/bin
 
