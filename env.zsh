@@ -29,14 +29,17 @@ fi
 
 export EDITOR='nvim'
 
+# for homebrew
+export PATH=$PATH:/opt/homebrew/bin
+
 # for mason
 export PATH=$PATH:$HOME/.local/share/nvim/mason/bin
 
 # for ruby
 source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
 source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
-chruby ruby-2.6.10
-# chruby ruby-3.3.3
+# chruby ruby-2.6.10
+chruby ruby-3.3.3
 
 # # for flutter
 export PATH=$PATH:$HOME/fvm/default/bin
