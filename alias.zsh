@@ -15,3 +15,5 @@ alias t='tmux'
 alias f='fzf'
 alias j='joshuto'
 alias r='trash'
+
+alias vh='vb_git_helper'

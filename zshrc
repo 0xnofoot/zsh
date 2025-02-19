@@ -2,11 +2,9 @@
 # zshrc config
 # ------------------
 
-source ~/.config/zsh/env.zsh
-source ~/.config/zsh/plugs.zsh
-source ~/.config/zsh/prompt.zsh
-source ~/.config/zsh/alias.zsh
-source ~/.config/zsh/vi.zsh
-# the order cant't be changed 
-# source $ZIM_HOME/modules/fzf-tab/fzf-tab.plugin.zsh
-source ~/.config/zsh/fzf/fzf.zsh
+source $HOME/.config/zsh/env.zsh
+source $HOME/.config/zsh/plugs.zsh
+source $HOME/.config/zsh/prompt.zsh
+source $HOME/.config/zsh/alias.zsh
+source $HOME/.config/zsh/vi.zsh
+source $HOME/.config/zsh/fzf/fzf.zsh
