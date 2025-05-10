@@ -29,27 +29,15 @@ fi
 
 export EDITOR='nvim'
 
+# for trash-cli
+export PATH=$PATH:/opt/homebrew/opt/trash-cli/bin
+
 # for homebrew
 export PATH=$PATH:/opt/homebrew/bin
 
 # for mason
 export PATH=$PATH:$HOME/.local/share/nvim/mason/bin
 
-# for ruby
-source $(brew --prefix)/opt/chruby/share/chruby/chruby.sh
-source $(brew --prefix)/opt/chruby/share/chruby/auto.sh
-# chruby ruby-2.6.10
-chruby ruby-3.3.3
-
-# # for flutter
+# for flutter
 export PATH=$PATH:$HOME/fvm/default/bin
 export PATH=$PATH:$HOME/.pub-cache/bin
-export PUB_HOSTED_URL="https://pub.futuoa.com"
-
-# for rust
-export PATH=$PATH:$HOME/.cargo/bin
-
-# for java and android
-export JAVA_HOME=/Applications/Android\ Studio.app/Contents/jbr/Contents/Home
-export PATH=$PATH:$JAVA_HOME/bin
-export PATH=$PATH:$HOME/Library/Android/sdk/cmdline-tools/latest/bin
